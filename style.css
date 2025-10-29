@@ -8,7 +8,7 @@
 header{
     display: flex;
     justify-content: space-between;
-    padding: 0 40px;
+    padding: 10px 40px;
     align-items: center;
     position: sticky;
     top: 0;
@@ -16,7 +16,7 @@ header{
     width: 100%;
     height: auto;
     background-color: white;
-    z-index: 1111;
+    z-index: 10;
     margin: auto;
 }
 .logo img{
@@ -58,29 +58,18 @@ header{
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: -1;
+  z-index: 6;
   margin: auto;
   justify-content: center;
   display: flex;
   
-}
-
-.box{
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    position: absolute;
-    top: 0;
-    opacity: 0.5;
-    z-index: 1;
-
 }
 .maincontant{
     display: flex;
     flex-direction: column;
     position: absolute;
     gap: 40px;
-    z-index: 22;
+    z-index: 9;
     color: white;
     text-align: center;
 }
@@ -113,6 +102,16 @@ header{
 }
 
 
+.boox{
+    width: 100%;
+    height: 80%;
+    background-color: #E9DBCC;
+    position: absolute;
+    z-index: -1;
+    bottom: -230px;
+}
+
+
 
 /* section2*********************************************************** */
 .section2{
@@ -130,14 +129,17 @@ header{
     width: 95%;
     margin: auto;
     padding: 20px 40px;
-    margin: 40px;
+    margin: 35px;
     border: solid 1px #79171d;
     align-items: top;
 }
 .unique{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 48px;
+}
+.unique span{
+    color: #79171D;
 }
 .unique h2{
     font-size: 45px;
@@ -166,6 +168,14 @@ header{
     background-color: #E9DBCC;
     margin-top: 60px;
 }
+.boooo{
+    width: 100%;
+    height: 20%;
+    background-color: #E9DBCC;
+    z-index: -1 ;
+    position: absolute;
+    
+}
 
 .imgss img{
     width: 600px;
@@ -174,6 +184,7 @@ header{
 
 }
 .img{
+
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -216,7 +227,9 @@ header{
 /* .main4**************************** */
 
 .main4{
-    background-color: #79171d;
+    /* background-color: #79171d; */
+    background-image: url(final.png);
+    width: 100%;
     padding: 10px;
 }
 .image1 img{
@@ -259,7 +272,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 280px;
+    gap: 295px;
     color: white;
     font-size: 12px;
 }
@@ -283,8 +296,7 @@ header{
 .maindoted{
     display: flex;
     justify-content: space-between;
-    /* width: %; */
-    padding: 70px;
+    padding: 40px;
    
 }
 
@@ -450,7 +462,7 @@ header{
 
 .main200k{
     display: flex;
-    margin-top: 40px;
+    margin-top: 70px;
     padding: 0 40px;
 }
 
@@ -463,4 +475,448 @@ header{
 }
 .dui h1{
     font-weight: 800;
+}
+
+
+
+.mainlocations{
+    display: flex;
+    margin-top: 150px;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.imagelocations{
+   width: 60%;
+   height: 60%;
+}
+.imagelocations img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.headinglocations{
+    width: 400px;
+    height: 200px;
+}
+.headinglocations h1{
+    /* font-size:38px; */
+    font-size: 44px;
+    line-height: 50px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    
+}
+.headinglocations span{
+    color: #79171d;
+}
+.headinglocations p{
+    font-weight: 600;
+    color: #79171D;
+}
+
+.perents{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.childs{
+    text-align: center;
+}
+.childs h1{
+    font-size: 34px;
+    line-height: 41px;
+    font-weight: 800;
+    color: #79171D;
+}
+
+.childs p{
+    color: #363332;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+footer{
+    background-image: url(final\ bg.png);
+    width: 100%;
+    /* background-color: #79171D; */
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    padding: 150px 40px 40px 40px;
+    margin-top: 60px;
+}
+.mainhungry{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainhungry h1{
+    font-size: 43px;
+    line-height: 54px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    
+}
+.imagehungry{
+   width: 50%;
+   height: auto;
+}
+.imagehungry img{
+    width: 100%;
+}
+.buttanhungry{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    /* color: white; */
+}
+.haidinghungry{
+    color: white;
+}
+.haidinghungry span{
+    color: #FFC547;
+}
+.buttanhungry a{
+    background-color: #FFC547;
+    text-decoration: none;
+    padding: 12px 25px;
+    color: #79171D;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.buttanhungry p{
+    font-weight: 800;
+    font-size: 20px;
+}
+.signed p{
+    margin-top: 30px;
+    color: white;
+    font-weight: 500;
+}
+.signed img{
+    margin-top: 20px;
+}
+
+.burger-3logofooter{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+   
+}
+
+.bottamfooter{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    margin-top: 40px;
+    align-items: top;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.bottam-a h2{
+    font-size: 28px;
+    line-height: 30px;
+
+}
+.bottam-a{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    position: relative;
+}
+.bottam-a span{
+    color: #FFC547;
+
+}
+.bottam-a form input{
+    padding: 8px 70px 8px 20px;
+    background-color: #E9DBCC;
+    color: #363332;
+    border: #E9DBCC;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bottam-a a{
+    text-decoration: none;
+    position: absolute;
+    bottom: -50px;
+    right: 0;
+    color: white;
+    font-weight: 600;
+     padding: 10px 20px;
+}
+
+.bottam-a a:hover{
+    background-color: #cf2e2e;
+    padding: 8px 20px;
+}
+.bottam-b ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bottam-b a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.bottam-b a:hover{
+  color: #FFC547;
+}
+
+.bottam-c{
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+   justify-content: end;
+}
+.bottam-c i{
+    background-color: #E9DBCC;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    display: flex;
+    color: #79171D;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+}
+.bottam-c i:hover{
+    background-color: #FFC547;
+}
+
+.enddiv{
+    width: 98%;
+    margin: auto;
+    margin-top: 70px;
+    border-top: solid #ffc54741 1px;
+    text-align: center;
+    padding: 40px 20px 10px 20px;
+    color: white;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+/* @media****************************************** */
+
+
+@media (max-width: 767px){
+    .menu ul{
+        display: none;
+    }
+    video{
+        width: 100%;
+    }
+    .signetureheding h1{
+        font-size: 78px;
+        line-height: 68px;
+       
+    }
+    .signetureheding h2{
+        padding: 0;
+        font-size: 50px;
+    }
+
+    .maincontant{
+        gap: 20px;
+    }
+    .main1{
+        flex-direction: column;
+        width: 95%;
+        margin: auto;
+        gap: 20px;
+    }
+    .mainimgage {
+        flex-direction: column;
+        padding: 0;
+        align-items: left;
+    }
+    .unique h2{
+        font-size: 34px;
+        line-height: 38px;
+        font-weight: 900;   
+    }
+    .img {
+        flex-direction: row;
+        gap: 100px;
+        /* justify-content: center; */
+         text-align: left
+        
+    }
+    .imgs {
+        flex-direction: row;
+        gap: 100px;
+        text-align: left;
+        margin-bottom: 70px;
+        
+    
+    }
+    .img h4{
+        font-size: 19px;
+        line-height: 23px;
+        font-weight: 700;
+    }
+    .burger1 h1{
+        font-size: 34px;
+        line-height: 38px;
+        font-weight: 900;
+    }
+
+    .maindoted {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .main4{
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 690px;
+    }
+    .mainboximage{
+        flex-direction: column;
+        top: 1660px;
+        gap: 0;
+        width: 100%;
+        z-index: 1;
+        left:0;
+        align-items: center;
+    }
+    .boximage img{
+        width: 100%;
+    }
+    .boximage pre{
+        /* margin-bottom: 20px; */
+        padding-bottom: 20px;
+    }
+    .customers {
+        padding-top: 700px;
+    }
+    .customersreview h1{
+        font-size: 34px;
+        line-height: 38px;
+        font-weight: 900;
+       
+    }
+    .maincostomer{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .costomersphoto {
+        width: 100%;
+    }
+    .maintastes {
+        flex-direction: column;
+        /* margin-top: 550px; */
+        margin: 0;
+        padding: 0  40px;
+    }
+
+    .imagtastes{
+        width: 100%;
+        position: relative;
+        left: -5px;
+        top: 80px;   
+        padding: 0;
+       
+    }
+
+    .mainlocations{
+        flex-direction: column;
+        gap: 80px;
+    }
+    .imagelocations img{
+        /* overflow: hidden; */
+        width: 500px;
+    }
+
+    .headinglocations{
+        width: 500px;
+
+    }
+
+    .headinglocations h1 {
+        font-size: 30px;
+        line-height: 38px;
+        font-weight: 900;
+        letter-spacing: 1px;
+    }
+    
+
+    .perents {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+
+    .oneone{
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    .twotwo{
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .mainhungry {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .imagehungry{
+        width: 600px;
+        height: 600px;
+    }
+
+    .bottamfooter {
+        flex-direction: column;
+        gap: 80px;
+        align-items: center;
+    }
+    .bottam-a{
+        text-align: center;
+    }
+    .bottam-a a{
+        position: absolute;
+        left: 0;
+    }
+    .bottam-b{
+        text-align: center;
+    }
+    .bottam-c{
+        text-align: center;
+    }
+    footer{
+        height: 100%;
+        background-color: #79171D;
+        padding: 20px 0;
+    }
+
+    .enddiv{
+        text-align: center;
+        color: #E9DBCC;
+    }
+    
+
+    
+
 }
