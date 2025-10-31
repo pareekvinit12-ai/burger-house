@@ -1104,5 +1104,9 @@ footer{
         font-weight: 400;
     }
 
+    .bottam-a form input{
+        padding: 10px 40px 10px 20px;
+    }
+
     
 }
