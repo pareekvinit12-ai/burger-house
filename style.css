@@ -1029,6 +1029,9 @@ footer{
         font-size: 60px;
         line-height: 55px;
     }
+    .burgerheading {
+        font-size: 24px;
+    }
 
 
     
@@ -1045,10 +1048,12 @@ footer{
 
     .signetureheding h1 {
         font-size: 45px;
+        gap: 10px;
         line-height: 40px;
     }
     .signetureheding h2 {
         font-size: 48px;
+        line-height: 30px;
     }
     .signetureheding h4 {
         font-size: 20px;
@@ -1073,6 +1078,20 @@ footer{
         font-size: 10px;
         padding: 20px;
         gap: 20px;
+    }
+    .bottam-a{
+        padding: 0 40px;
+    }
+    .bottam-a h2{
+        font-size: 24px;
+    }
+    .buttanS a{
+        font-size: 12px;
+    }
+
+    .buttanhungry{
+        font-size: 8px;
+        font-weight: 400;
     }
 
 }
