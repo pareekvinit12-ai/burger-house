@@ -1106,7 +1106,6 @@ footer{
 
     .bottam-a form input{
         padding: 10px 40px 10px 20px;
-        /* display: none; */
     }
 
     
@@ -1135,11 +1134,11 @@ footer{
 
         }
         .imagelocations img {
-            width: 330px;
+            width: 300px;
         }
 
         .headinglocations{
-            width: 330px;
+            width: 300px;
         }
         .imagehungry{
             width: 300px;
@@ -1148,8 +1147,25 @@ footer{
         .imagehungry img{
             width: 100%;
         }
+        .buttanhungry a{
+            padding: 6px;}
 
 
 }
 
+/* @media (max-width: 330px){
 
+        .buttanhungry{
+            font-size: 2px;
+            gap: 8px;
+        }
+        .buttanhungry h2{
+            font-size: 5px;
+        }
+        .buttanhungry a{
+            padding: 6px;
+        }
+    
+    }
+
+ */
