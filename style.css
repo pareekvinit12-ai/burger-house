@@ -1085,6 +1085,16 @@ footer{
     .bottam-a h2{
         font-size: 24px;
     }
+    .bottam-a a{
+        width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        /* right: 100px; */
+    }
+    .bottam-a a:hover{
+        padding: 5px 10px;
+    }
     .buttanS a{
         font-size: 12px;
     }
@@ -1094,4 +1104,5 @@ footer{
         font-weight: 400;
     }
 
+    
 }
