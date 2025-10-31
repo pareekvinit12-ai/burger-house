@@ -518,8 +518,17 @@ header{
 
 .perents{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 40px;
+    gap: 170px;
+}
+.oneone{
+    display: flex;
+    gap: 170px;
+}
+.twotwo{
+    display: flex;
+    gap: 170px;
 }
 
 .childs{
@@ -886,6 +895,10 @@ footer{
         width: 600px;
         height: 600px;
     }
+    .Classic p{
+        font-size: 18px;
+        font-weight: 500;
+    }
 
     .bottamfooter {
         flex-direction: column;
@@ -915,8 +928,151 @@ footer{
         text-align: center;
         color: #E9DBCC;
     }
-    
+    .mainhungry {
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 625px){
+    .boximage1{
+        width: 350px;
+    }
+    .boximage{
+        width: 350px;
+    }
+    .mainboximage{
+        top: 1560px;
+    }
+    .main4{
+        padding-bottom: 560px;
+    }
+    .Classic{
+        gap: 100px;
+    }
+    .Classic h1{
+        font-size: 18px;
+        line-height: 23px;
+        
+    }
+    .class p{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .imagehungry {
+        width: 400px;
+        height: 400px;
+    }
+    .imagehungry img{
+        width: 100%;
+    }
+    .imgss img {
+        width: 400px;
+    }
+    .img{
+        gap: 20px;
+        padding: 0 0 0 40px;
+    }
+    .imgs{
+        gap: 20px;
+        padding: 0 0 0 40px;
+    }
+    .imagelocations img{
+        width: 400px;
+    }
+    .headinglocations{
+        width: 400px;
+    }
+    .oneone{
+        gap: 80px;
+    }
+    .twotwo{
+        gap: 110px;
+    }
+}
+
+
+
+@media (max-width: 580px){ 
+    .class p{
+        font-size: 8px;
+        font-weight: 500;
+    }
+
+    .mainboximage{
+        top: 1490px;
+    }
+    .unique h2 {
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 900;
+    }
+    .unique{
+        gap: 20px;
+    }
+    .tastes h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .imagtastes {
+        height: 100%;
+    }
+    .buttanhungry{
+        font-size: 10px;
+        padding: 20px;
+        gap: 20px;
+    }
+    .mainhungry h1 {
+        font-size: 35px;
+    }
+    .signetureheding h1 {
+        font-size: 60px;
+        line-height: 55px;
+    }
+
 
     
+}
+
+
+
+@media (max-width: 460px){
+
+    .maincontant {
+        margin-bottom: 30px;
+        padding: 30px;
+    }
+
+    .signetureheding h1 {
+        font-size: 45px;
+        line-height: 40px;
+    }
+    .signetureheding h2 {
+        font-size: 48px;
+    }
+    .signetureheding h4 {
+        font-size: 20px;
+    }
+
+    .imgss img {
+        width: 300px;
+    }
+    .imagelocations img {
+        width: 350px;
+    }
+    .headinglocations{
+        width: 350px;
+    }
+    .dui p{
+        font-size: 15px;
+    }
+    .mainlocations{
+        margin-top: 20px;
+    }
+    .buttanhungry{
+        font-size: 10px;
+        padding: 20px;
+        gap: 20px;
+    }
 
 }
