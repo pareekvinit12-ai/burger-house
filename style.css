@@ -1106,8 +1106,50 @@ footer{
 
     .bottam-a form input{
         padding: 10px 40px 10px 20px;
-        display: none;
+        /* display: none; */
     }
 
     
 }
+
+
+
+
+
+
+
+@media (max-width: 380px){
+
+        .buttanhungry{
+            font-size: 5px;
+            gap: 10px;
+        }
+        .buttanhungry h2{
+            font-size: 10px;
+        }
+
+        form {
+
+            margin-right: 40px;
+            margin-left: 40px;
+
+        }
+        .imagelocations img {
+            width: 330px;
+        }
+
+        .headinglocations{
+            width: 330px;
+        }
+        .imagehungry{
+            width: 300px;
+            height: 300px;
+        }
+        .imagehungry img{
+            width: 100%;
+        }
+
+
+}
+
+
